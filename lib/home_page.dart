@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
       body: const Center(
         child: Text(
           "Namaste & Welcome to Nepali Pasal !!",
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(fontWeight: FontWeight.bold,wordSpacing: 1.5, fontFamily: "Mooli"),
         ),
       ),
     );
